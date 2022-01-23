@@ -1,1 +1,1 @@
-web: gunicorn --chdir ./src app:antstacart
+web: gunicorn --chdir ./src app:app
