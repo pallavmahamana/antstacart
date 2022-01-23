@@ -11,7 +11,7 @@ class GenerateInvoice(Resource):
         json_data = request.get_json(force=True)
         order = InvoiceGenerator(json_data)
         order.calculate_order()
-        return {"commodities":order._commodities,
+        return {"commodities":sorted(order._commodities,key= lambda i:i["item"]),
                 "total_order":{
                     "datetime": str(datetime.now()),
                     "total_amount_without_discount": order._total_amount,
