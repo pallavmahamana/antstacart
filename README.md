@@ -13,7 +13,10 @@ This repository contain python (flask) based solution to antstack api for store 
    `pip install -r antstacart-flask/requirements.txt`
 3) `python anstacart-flask/src/app.py` to run local server
 4) Few test sample json are given in test_json folder for test purpose.
-
-
+   
 ## API Endpoints
   ### /api/invoice , Method Allowed = [POST]
+
+### This solution is also hosted on heroku, DONT ABUSE 😈
+https://antstacart.herokuapp.com/api/invoice
+
