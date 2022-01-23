@@ -11,8 +11,10 @@ This repository contain python (flask) based solution to antstack api for store 
 2) Install dependencies in local environment using 
    
    `pip install -r antstacart-flask/requirements.txt`
-3) `python anstacart-flask/src/app.py`
+3) `python anstacart-flask/src/app.py` to run local server
 
 ## Few test sample json are given in test_json folder
 
 
+## API Endpoints
+  ### /api/invoice , Method Allowed = [POST]

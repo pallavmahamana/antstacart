@@ -23,9 +23,9 @@ class GenerateInvoice(Resource):
 
 class Antstacart(Resource):
     def get(self):
-        return "Hello Antstacart"
+        return "Hello Antstacart, POST on /api/invoice"
 
-api.add_resource(GenerateInvoice,'/invoice')
+api.add_resource(GenerateInvoice,'/api/invoice')
 api.add_resource(Antstacart,'/')
 
 
