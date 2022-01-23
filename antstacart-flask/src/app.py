@@ -19,7 +19,6 @@ class GenerateInvoice(Resource):
                     "total_tax_amount": order._total_tax,
                     "discount_applied": order.apply_discount(),
                     "total_amount_with_discount": order._total_amount_with_discount
-
                 }}
 
 
