@@ -1,1 +1,1 @@
-web: gunicorn src/app.py:antstacart
+web: gunicorn --chdir ./src app:antstacart
