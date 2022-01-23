@@ -14,8 +14,9 @@ This repository contain python (flask) based solution to antstack api for store 
    `pip install -r antstacart-flask/requirements.txt`
 3) `python anstacart-flask/src/app.py` to run local server
 4) Few test sample json are given in test_json folder for test purpose.
-5) Install [httpie](https://httpie.io/) (`snap install httpie` if you snap!)
-6) `http POST <localhost>/api/invoice < test_json/sample.json`
+5) Install [httpie](https://httpie.io/) (`snap install httpie` if you snap!) or use tool like Postman.
+6) `http POST <localhost>/api/invoice < test_json/sample.json`  
+
 ## API Endpoints
   ### /api/invoice , Method Allowed = [POST]
 
