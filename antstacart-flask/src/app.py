@@ -6,7 +6,6 @@ from util import InvoiceGenerator
 app = Flask(__name__)
 api = Api(app)
 
-
 class GenerateInvoice(Resource):
     def post(self):
         json_data = request.get_json(force=True)
@@ -22,10 +21,12 @@ class GenerateInvoice(Resource):
                 }}
 
 
-
-
+class Antstacart(Resource):
+    def get(self):
+        return "Hello Antstacart"
 
 api.add_resource(GenerateInvoice,'/invoice')
+api.add_resource(Antstacart,'/')
 
 
 if __name__ == '__main__':
