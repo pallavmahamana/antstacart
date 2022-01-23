@@ -15,5 +15,11 @@
 "itemCategory": "Book",
 "quantity": 1,
 "price": 300
+},
+{
+    "item": "Vengabois",
+    "itemCategory": "Music",
+    "quantity": 25,
+    "price": 100
 }
 ]
